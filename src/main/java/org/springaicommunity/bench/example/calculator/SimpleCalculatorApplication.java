@@ -1,4 +1,4 @@
-package org.springaicommunity.simple_calculator;
+package org.springaicommunity.bench.example.calculator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
