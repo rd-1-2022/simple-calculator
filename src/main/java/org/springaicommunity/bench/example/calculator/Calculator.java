@@ -41,6 +41,9 @@ public class Calculator {
      * BUG: Doesn't handle negative numbers - should throw exception
      */
     public double sqrt(double number) {
+        if (number < 0) {
+            throw new IllegalArgumentException("Cannot calculate square root of negative number");
+        }
         return Math.sqrt(number);
     }
 }
